@@ -1,0 +1,40 @@
+@charset "utf-8";
+/*!
+ * base css.
+ * Author .
+ * Copyright 2016. webgram.co.kr
+ */
+
+* {word-break: break-all; word-wrap: break-word;}
+img {vertical-align: middle;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,textarea,p,blockquote,th,td,input,select,textarea,button{margin:0;padding:0}
+html{background:#fff}
+body,th,td,input,select,textarea,button{font-size:14px; line-height:1.6; font-family:'Nanum Gothic', 'nanumGothic', 'AppleSDGothic', Helvetica, sans-serif; color: #333}
+fieldset,img{border:0 none}
+dl,ul,ol,menu,li{list-style:none}
+blockquote, q{quotes:none}
+blockquote:before, blockquote:after,q:before, q:after{content:'';content:none}
+input,select,textarea,button{font-size:100%;vertical-align:middle}
+button{border:0 none;background-color:transparent;cursor:pointer}
+table{border-collapse:collapse;border-spacing:0}
+address,caption,cite,code,dfn,em,var{font-style:normal}
+caption{font-size:0; line-height:0; margin:0; padding:0; border:none; visibility:hidden;}
+hr {display: none}
+body{background-color:#fff; -webkit-text-size-adjust:none;}
+a {color:inherit;text-decoration:none;}
+a:active, a:hover{text-decoration:none}
+.chrome a, 
+.safari a {outline-offset:-3px;}
+select, textarea, input{border-radius:0}
+input[type=date]::-webkit-inner-spin-button,
+input[type=date]::-webkit-calendar-picker-indicator {-webkit-appearance: none;display: none;}
+input[type='search']::-webkit-search-cancel-button{-webkit-appearance:none}
+input::-ms-clear{display:none}
+legend, 
+.blind{overflow:hidden;position:absolute;top:-1px;left:-1px;width:1px;height:1px;font-size:0;line-height:0;white-space:nowrap}
+figure {margin:0;}
+h1, h2, h3, h4, h5, h6 {font-weight: 700;}
+
+body:before{position:fixed;left:0;top:0;width:100%;height:0;content:'';}/* fix webkit bug(scroll event delay) */
+
+#skip, .skip { font-size:0; width:0; height:0; line-height:0; position:absolute; left:-9999px; }
