@@ -49,3 +49,5 @@ color:#a8a8a8;
 .main .title2{text-align:center;}
 .main #smtm777{ margin-left:400px;}
 .main .two_list{margin-top:60px; }
+.footer .address{clear: both; display: block; font-size: 11px; line-height: 18px; color: #9b9b9b; margin-left: 202px; font-family: 'Noto Sans KR', sans-serif; font-style: normal;}
+.footer .address .copyright {color: #a1a1a1; font-size: 11px; margin-top: 10px;}
