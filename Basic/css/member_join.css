@@ -1,0 +1,158 @@
+html {font-size: 100.01%;}
+
+body, div, h1, h2, h3, h4, h5, h6, select, textarea, input, button, blockquote, th, td, caption
+{
+    font-size: 12px;
+    font-family: '돋움', Dotum, '굴림', Gulim,sans-serif;
+    line-height: 1.4em;
+    color: #000;
+    -webkit-text-size-adjust: none;
+}
+
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+div {display: block;}
+
+h1{
+    display: block;
+    font-size: 2cm;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+#header h1 {
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    background: #000;
+    font-family: '나눔고딕', NanumGothic, '맑은 고딕', 'Malgun Gothic';
+}
+
+#container{
+    width: 640px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+
+#content{
+    position: relative;
+    display: block;
+    clear: both;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.navi{
+    overflow: hidden;
+    margin: 38px 0 0;
+}
+
+.navi:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+dl, ul, ol, li{list-style: none;}
+
+.navi li.selected{
+    color: #000;
+    border-bottom: 7px solid #000;
+}
+
+.navi li{
+    display: block;
+    float: left;
+    width: 25%;
+    color: #acacac;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0 0 12px 0;
+    text-align: center;
+    border-bottom: 7px solid #d7d7d7;
+}
+
+fieldset{
+    display: block;
+    border: 0;
+}
+
+fieldset{
+    display: block;
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    padding-block-start: 0.35em;
+    padding-block-end: 0.625em;
+    padding-inline-start: 0.75em;
+    padding-inline-end: 0.75em;
+    min-width: -webkit-min-content;
+    border-width: 2px;
+    border-style: groove;
+    border-color: threedface;
+    border-image: initial;
+}
+
+.blind{
+    visibility: hidden;
+    position: absolute;
+    width: 0;
+    height: 0;
+    font-size: 0;
+    overflow: hidden;
+    text-indent: -9999px;
+    line-height: 0px;
+}
+
+legend{
+    display: block;
+    padding-inline-start: 2px;
+    padding-inline-end: 2px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+}
+
+.joinBox{
+    margin-top: 25px;
+    border: 1px solid #d7d7d7;
+    background: #fff;
+}
+
+.joinBox:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.joinBox .ID_Box:first-child{
+    border-top: 0;
+}
+
+.joinBox .ID_Box{
+    position: relative;
+    padding: 10px 20px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.joinBox .ipText{
+    position: relative;
+    width: 100%;
+    height: 22px;
+    font-size: 14px;
+}

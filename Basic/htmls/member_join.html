@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link href="../css/style4.css" rel="stylesheet">
+    <script src="../js/modernizr-custom.js"></script>
+    <script src="../js/jquery-3.2.1.min.js"></script>
+    <script src="../js/main.js"></script>
+    <title>로그인</title>
+</head>
+
+<body>
+    <div id="wrap">
+        <script type="text/javascript" src="/js/join.js?ver=20180612"></script>
+        <div id="header">
+            <h1>회원가입</h1>
+        </div>
+
+        <div id="container">
+            <div id="content">
+                <ul class="navi">
+                    <li class="selected" id="termMenu">기본정보</li>
+                </ul>
+                <div id="personalInfo" style="display: none;">
+                    <fieldset class="joinform">
+                        <legend class="blind">회원가입</legend>
+                        <div class="joinBox">
+                            <div class="ID_Box">
+                                <input type="text" class="ipText" placeholder="아이디*" id="name" name="name" value="" >
+                                <label id="nameLB" for="name">아이디*</label>
+                            </div>
+                        </div>
+                        <div class="joinBox2">
+                            <div class="PW_Box">
+                                <input type="password" class="ipText" placeholder="비밀번호*" id="password" name="password" maxLength="12" >
+                                <label for="password">비밀번호*</label>
+                            </div>
+                            <div class="PWOK_Box">
+                                <input type="password" class="ipText" placeholder="비밀번호 확인*" id="passwordConfirm" name="passwordConfirm" maxLength="12" >
+                                <label for="passwordConfirm">비밀번호 확인*</label>
+                            </div>
+                            <p class="noti_type02">비밀번호는 숫자, 영문, 특수문자(!@#$%^&*()?_~) 조합으로 8~12자리를 사용해야 합니다.</p>
+                            <p class="noti_type03" id="noti_pwd"></p>
+                        </div>
+                        <div class="joinBox3">
+                            <div class="Name_Box">
+                                <input type="text" class="ipText" placeholder="이름*" id="name" name="name" value="" >
+                                <label id="nameLB" for="name">이름*</label>                                
+                            </div>
+                            <div class="Age_Box">
+                                <input type="text" class="ipText" placeholder="나이*" id="age" name="age" value="" >
+                                <label id="ageLB" for="age">나이*</label>
+                            </div>
+                            <div class="PN_Box">
+                                    <input type="text" class="ipText" placeholder="번호*" id="tel" name="tel" value="" >
+                                    <label id="telLB" for="tel">번호*</label>
+                            </div>
+                            <div class="Email_Box">
+                                    <input type="text" class="ipText" placeholder="이메일*" id="email" name="email" value="" >
+                                    <label id="emailLB" for="email">이메일*</label>
+                            </div>
+                        </div>
+                        <div class="btnArea">
+                                <a href="javascript:personalInfo.validation();" class="btn_next w100">다음 단계</a>
+                        </div>
+                    </fieldset>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
