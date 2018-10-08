@@ -16,9 +16,9 @@ height:100%;
 
 margin:0 auto;
 background:url("../images/bg2.jpg") no-repeat 0 0; background-size:cover;
+background-attachment: fixed;
 }
 .container .top_header{
-
 text-align:right;
 padding:6px;
 color :  #a8a8a8;
@@ -28,6 +28,7 @@ font-family: 'Noto Sans KR', sans-serif;
 .container .top_header_in .top_header  a{
 margin:0 5px;
 }
+.container .top_header_in .top_header  a:hover{text-decoration: underline;}
 .container .header_wrapper .sns{
 text-align:right;
 margin-top:20px;
@@ -40,20 +41,39 @@ position: absolute;
 top:160px;
 margin-left:300px;
 font-family: 'Do Hyeon', sans-serif;
+
+
 } 
-.header_wrapper .header_menu ul li{display:inline-block;
+.header_wrapper .header_menu .gnbDepth1 li{display:inline-block;
 margin:0 9px;
 color:#a8a8a8; 
+font-size:20px;
+
 }
+
+
 .main .slide .cycle-slideshow{margin-top:50px;}
 .main .slide .four_picture .imges{}
 .main .title{text-align:center; margin-top:20px;}
 .main .title2{text-align:center;}
 .main #smtm777{ margin-left:400px;}
 .main .two_list{margin-top:60px; }
-.gnbDepth1 li ul {display: none;}
+
+.gnbDepth1 li ul {
+    display:none;  /* 평상시에는 서브메뉴가 안보이게 하기 */
+    height:auto;
+    padding:0px;
+    margin:0px;
+    border:0px;
+    position:absolute;
+    width:200px;
+    z-index:200;
+
+}
 .gnbDepth1 li:hover ul {display: block;}
-.footer .address{clear: both; display: block; font-size: 11px; line-height: 18px; color: #9b9b9b; margin-left: 202px; font-family: 'Noto Sans KR', sans-serif; font-style: normal;}
-.footer .address .copyright {color: #a1a1a1; font-size: 11px; margin-top: 10px;}
+.header_menu .gnbDepth1 .gnbDepth2 { width : 530px; margin-top:5px; font-size:14px; }
+.header_menu .gnbDepth1 .gnbDepth2 a { font-size:13px; margin-right:8px;}
 
 /*---------------------index.html-----------------------*/
+
+

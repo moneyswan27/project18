@@ -16,6 +16,7 @@ height:100%;
 
 margin:0 auto;
 background:url("../images/bg2.jpg") no-repeat 0 0; background-size:cover;
+background-attachment: local;
 }
 .container .top_header{
 text-align:right;
@@ -59,12 +60,104 @@ font-size:20px;
     position:absolute;
     width:200px;
     z-index:200;
+}
+
+/*---------------------index.html-----------------------*/
+
+
+
+/*---------------------border.html-----------------------*/
+
+.board_container{ width:1067px; height:3066px; margin:0 auto; color:#fff;}
+.inner_wrap{
+background-color:#F6F6F6;
+width:979px;
+height:2958px;
+margin:0 auto;
 
 }
 
+.board_wrap{margin-left:30px;}
 
 
+.board_container .inner_wrap .notice{
+width:639px;
+height:400px;
+margin-top:30px;
+color:#1e1d1d;
+font-weight:bold;
+font-size:20px;
+font-family: 'Do Hyeon', sans-serif;
+padding-top:20px;
+}
 
-/*---------------------index.html-----------------------*/
+
+.right_picture{
+margin-top: 50px;
+text-align:center;
+background:transparent;
+border-left:1px solid #cecece;
+}
+.new_video_wr{
+    font-size:17px;
+    font-family: 'Do Hyeon', sans-serif;
+    color:#000;
+    text-align:left;
+    margin-top:20px;
+}
+
+.board_container .inner_wrap .right_picture{
+    width:280px;
+    height:1314px;
+    float:right;
+}
+.board_container .inner_wrap .under_picture_txt{
+    color:#666;
+    text-align:left;
+}
+.board_container .inner_wrap .music_list{
+    margin-top:50px;
+}
+
+.board_container .inner_wrap .notice .board_list{
+border-top:2px solid #99a2aa;
+
+}
+.board_container .inner_wrap .notice .board_list tr  {
+width:639px;
+height:31px;
+border-top : 1px solid #cecece;
+border-bottom : 1px solid #cecece;
+
+}
+.board_container .inner_wrap .notice .board_list tr th{color : #8b909c;}
+.board_container .inner_wrap .notice .board_list tr .subject{width:365px; height:31px;}
+.board_container .inner_wrap .notice .board_list tr td{
+text-align:center;
+color:#767676;}
+
+.board_container .inner_wrap .comment{
+margin-top:20px;
+color:#444;
+font-size:20px;
+font-family: 'Do Hyeon', sans-serif;
+}
+
+
+textarea {  resize: none;}
+.comments .input_zone .input_apply{
+width: 60px;
+height:46px;
+background-color:#9c9c9c;
+color:#fff;
+margin-right:5px;
+}
+.comments .title{
+margin-bottom:5px;
+width:50px;
+}
+
+
+/*---------------------border.html-----------------------*/
 
 
