@@ -1,78 +1,12 @@
-/*---------------------index.html-----------------------*/
-
-html,
-body{
-    height:100%;
-}
-.top_header,
-.header_wrapper,
-.main,
-.footer{
-    width:980px;
-    margin : 0 auto;
-}
-.container{
-height:100%;
-
-margin:0 auto;
-background:url("../images/bg2.jpg") no-repeat 0 0; background-size:cover;
-background-attachment: local;
-}
-.container .top_header{
-text-align:right;
-padding:6px;
-color :  #a8a8a8;
-font-family: 'Noto Sans KR', sans-serif;
-}
-.container .top_header_in .top_header {}
-.container .top_header_in .top_header  a{
-margin:0 5px;
-}
-.container .top_header_in .top_header  a:hover{text-decoration: underline;}
-.container .header_wrapper .sns{
-text-align:right;
-margin-top:20px;
-}
-.top_header_in{background-color :#1e1d1d;}
-
-.header_wrapper {position:relative; top:0; left:0;}
-.header_wrapper .header_menu{
-position: absolute;
-top:160px;
-margin-left:300px;
-font-family: 'Do Hyeon', sans-serif;
-} 
-.header_wrapper .header_menu .gnbDepth1 li{display:inline-block;
-margin:0 9px;
-color:#a8a8a8; 
-font-size:20px;
-}
-
-.header_menu .gnbDepth1 .gnbDepth2 { width : 530px; margin-top:5px; font-size:14px; }
-.header_menu .gnbDepth1 .gnbDepth2 a { font-size:13px; margin-right:8px;}
-.gnbDepth1 li:hover ul {display: block;}
-.gnbDepth1 li ul {
-    display:none;  /* 평상시에는 서브메뉴가 안보이게 하기 */
-    height:auto;
-    padding:0px;
-    margin:0px;
-    border:0px;
-    position:absolute;
-    width:200px;
-    z-index:200;
-}
-
-/*---------------------index.html-----------------------*/
-
 
 
 /*---------------------border.html-----------------------*/
 
-.board_container{ width:1067px; height:3066px; margin:0 auto; color:#fff;}
+.board_container{ width:1067px; height:850px; margin:0 auto; color:#fff;}
 .inner_wrap{
 background-color:#F6F6F6;
 width:979px;
-height:2958px;
+height:850px;
 margin:0 auto;
 
 }

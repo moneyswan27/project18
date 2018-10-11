@@ -2,7 +2,7 @@
 
 @import url("base.css");
 @import url("fonts.css");
-@import url("member_join.css"); /* main.css   */
+@import url("view.css"); /* main.css   */
 
 /*
 @import url("responsive_pc.css") (min-width:1025px);
@@ -32,3 +32,4 @@
 @media all and (min-width:1025px) {
 
 }
+

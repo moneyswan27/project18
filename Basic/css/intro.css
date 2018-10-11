@@ -1,0 +1,22 @@
+.intro_notice{    margin-top: 30px;
+    color: #1e1d1d;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Do Hyeon', sans-serif;
+    padding-top: 20px; }
+
+.intro_box_1{ 
+    
+    height: 1000px;
+}
+
+.intro_box_1 .image{
+    width: 637px;
+    height: 895px;
+    background: url('../images/intro_bg1.jpg');
+}
+
+iframe{
+    margin-left: 25px;
+    margin-top: 318px;
+}

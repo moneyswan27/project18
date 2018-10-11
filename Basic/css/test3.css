@@ -12,7 +12,7 @@ body{
     margin : 0 auto;
 }
 .container{
-height:100%;
+height:100%px;
 
 margin:0 auto;
 background:url("../images/bg2.jpg") no-repeat 0 0; background-size:cover;
@@ -73,7 +73,101 @@ font-size:20px;
 .gnbDepth1 li:hover ul {display: block;}
 .header_menu .gnbDepth1 .gnbDepth2 { width : 530px; margin-top:5px; font-size:14px; }
 .header_menu .gnbDepth1 .gnbDepth2 a { font-size:13px; margin-right:8px;}
+.gnbDepth1 li ul {display: none;}
+.gnbDepth1 li:hover ul {display: block;}
+.footer .address{clear: both; display: block; font-size: 11px; line-height: 18px; color: #9b9b9b; margin-left: 202px; font-family: 'Noto Sans KR', sans-serif; font-style: normal;}
+.footer .address .copyright {color: #a1a1a1; font-size: 11px; margin-top: 10px;}
 
-/*---------------------index.html-----------------------*/
+/*---------------------border.html-----------------------*/
+
+.board_container{ width:1067px; height:1000px; margin:0 auto; color:#fff;}
+.inner_wrap{
+background-color:#F6F6F6;
+width:979px;
+height:1000px;
+margin:0 auto;
+
+}
+
+.board_wrap{margin-left:30px;}
 
 
+.board_container .inner_wrap .notice{
+width:639px;
+height:400px;
+margin-top:30px;
+color:#1e1d1d;
+font-weight:bold;
+font-size:20px;
+font-family: 'Do Hyeon', sans-serif;
+padding-top:20px;
+}
+
+
+.right_picture{
+margin-top: 50px;
+text-align:center;
+background:transparent;
+border-left:1px solid #cecece;
+}
+.new_video_wr{
+    font-size:17px;
+    font-family: 'Do Hyeon', sans-serif;
+    color:#000;
+    text-align:left;
+    margin-top:20px;
+}
+
+.board_container .inner_wrap .right_picture{
+    width:280px;
+    height:850px;
+    float:right;
+}
+.board_container .inner_wrap .under_picture_txt{
+    color:#666;
+    text-align:left;
+}
+.board_container .inner_wrap .music_list{
+    margin-top:50px;
+}
+
+.board_container .inner_wrap .notice .board_list{
+border-top:2px solid #99a2aa;
+
+}
+.board_container .inner_wrap .notice .board_list tr  {
+width:639px;
+height:31px;
+border-top : 1px solid #cecece;
+border-bottom : 1px solid #cecece;
+
+}
+.board_container .inner_wrap .notice .board_list tr th{color : #8b909c;}
+.board_container .inner_wrap .notice .board_list tr .subject{width:365px; height:31px;}
+.board_container .inner_wrap .notice .board_list tr td{
+text-align:center;
+color:#767676;}
+
+.board_container .inner_wrap .comment{
+margin-top:20px;
+color:#444;
+font-size:20px;
+font-family: 'Do Hyeon', sans-serif;
+}
+
+
+textarea {  resize: none;}
+.comments .input_zone .input_apply{
+width: 60px;
+height:46px;
+background-color:#9c9c9c;
+color:#fff;
+margin-right:5px;
+}
+.comments .title{
+margin-bottom:5px;
+width:50px;
+}
+
+
+/*---------------------border.html-----------------------*/

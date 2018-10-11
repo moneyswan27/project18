@@ -1,0 +1,172 @@
+/*---------------------index.html-----------------------*/
+
+html,
+body{
+    height:100%;
+}
+.top_header,
+.header_wrapper,
+.main,
+.footer{
+    width:980px;
+    margin : 0 auto;
+}
+.container{
+height:100%px;
+
+margin:0 auto;
+background:url("../images/bg2.jpg") no-repeat 0 0; background-size:cover;
+background-attachment: local;
+}
+.container .top_header{
+text-align:right;
+padding:6px;
+color :  #a8a8a8;
+font-family: 'Noto Sans KR', sans-serif;
+}
+.container .top_header_in .top_header {}
+.container .top_header_in .top_header  a{
+margin:0 5px;
+}
+.container .top_header_in .top_header  a:hover{text-decoration: underline;}
+.container .header_wrapper .sns{
+text-align:right;
+margin-top:20px;
+}
+.top_header_in{background-color :#1e1d1d;}
+
+.header_wrapper {position:relative; top:0; left:0;}
+.header_wrapper .header_menu{
+position: absolute;
+top:160px;
+margin-left:300px;
+font-family: 'Do Hyeon', sans-serif;
+} 
+.header_wrapper .header_menu .gnbDepth1 li{display:inline-block;
+margin:0 9px;
+color:#a8a8a8; 
+font-size:20px;
+}
+
+.header_menu .gnbDepth1 .gnbDepth2 { width : 530px; margin-top:5px; font-size:14px; }
+.header_menu .gnbDepth1 .gnbDepth2 a { font-size:13px; margin-right:8px;}
+.gnbDepth1 li:hover ul {display: block;}
+.gnbDepth1 li ul {
+    display:none;  /* 평상시에는 서브메뉴가 안보이게 하기 */
+    height:auto;
+    padding:0px;
+    margin:0px;
+    border:0px;
+    position:absolute;
+    width:200px;
+    z-index:200;
+}
+
+/*---------------------index.html-----------------------*/
+
+
+
+/*----------------------view.html----------------*/
+
+.board_container{ width:1067px; height:3066px; margin:0 auto; color:#fff;}
+.inner_wrap{
+background-color:#fff;
+width:979px;
+height:600px;
+margin:0 auto;
+border: 1px solid red;
+
+}
+
+
+
+
+
+.board_container .inner_wrap .view_page_wrap{
+width:930px;
+height:573px;
+
+margin-left:120px;
+color:#1e1d1d;
+
+}
+.board_container .inner_wrap .view_page_wrap h2{
+font-size:30px;
+margin:20px;
+}
+
+.board_container .inner_wrap .in_view{
+
+border-radius:15px;
+border-style:groove;
+width:700px;
+height:500px;
+border:1px solid ;
+}
+
+
+.in_view .container_view{
+    width:550px;
+    height:330px;
+    border-radius:15px;
+    border-style:inset;
+    margin-top:10px;
+    margin-left:70px;   
+
+}
+.board_container .inner_wrap .in_view .view_title{
+   border-bottom:2px solid #343;
+   width:550px;
+   margin: 0 auto;
+   font-family: 'Inconsolata', monospace;
+   font-size:20px;
+}
+
+.in_view .container_view .writer_container{
+    font-family: 'Lora', serif;
+    text-align:right;
+    margin-bottom:5px;
+    width:528px;
+    height:3px;   
+}
+.in_view .container_view .input_file{
+    margin-top:50px;
+    margin-left:20px;
+   font-family: 'Roboto', sans-serif;
+}
+.container_view .content_view{
+width:510px;
+height:230px;
+margin: 5px;
+margin: 0 auto;
+font-size:40px;
+}
+
+.content_view .textarea_view {
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+.container_view .buttons{
+    margin-top:7px;
+   text-align:right;
+    width:508px;
+    margin-left:20px;
+
+}
+
+.container_view .buttons .view_button{
+   border-radius:10px;
+   font-size:15px;
+   margin:0 5px;
+   background:#fff;
+   color:#000;
+   font-family: 'Roboto', sans-serif;
+   font-weight:bold;
+   
+}
+
+.board_container .inner_wrap h2{
+font-family: 'Do Hyeon', sans-serif;
+
+}

@@ -3,6 +3,8 @@
    
    $ID = $_POST['ID'];
    $PW = $_POST['PW'];
+   $conn = mysqli_connect("localhost", "root", "toor", "sample") 
+   or die('연결 안됨');
 
    if(! ($ID and $PW) )
    {
@@ -10,22 +12,17 @@
       exit;
    }
    
-   include "../dbconn.php";
-   
-   $sql = "select * from member where ID='$ID'";
+   $sql = "select * from member where ID='$ID' and PW='$PW'";
    $result = mysqli_query($conn, $sql);
    $match = mysqli_num_rows($result);
    if(! $match)
    {
-      echo "<script>alert('등록되지 않은 정보입니다.'); history.go(-1);</script>";
+      echo "<script>alert('등록되지 않은 정보입니다.1'); history.go(-1);</script>";
       exit;
    }else {
       $row = mysqli_fetch_array($result);
-      if($row['PW'] != $PW)
-      {
-         echo "<script>alert('등록되지 않은 정보입니다.'); history.go(-1);</script>";
-         exit;
-      }
+ 
+      
       
       $_SESSION['ID'] = $row['ID'];
       $_SESSION['name'] = $row['name'];
