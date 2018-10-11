@@ -146,7 +146,7 @@
                                         <legend>
                                             상단 댓글 입력 창
                                         </legend>
-                                        <div class="title"><input type=text placeholder="제목" maxlength="12" style='width:300px' name="subject" value=<?=$_SESSION['subject']?> ></div>
+                                        <div class="title"><input type=text placeholder="제목" maxlength="30" style='width:300px' name="subject" value=<?=$_SESSION['subject']?> ></div>
                                         <div class="input_zone">
                                             <div class="reply_textarea">
                                                 <textarea cols=80; name="content" value="<?=$_SESSION['content']?>" id="top_reply" placeholder="자유롭게 적어주세요."></textarea>
