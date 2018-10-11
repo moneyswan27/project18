@@ -1,4 +1,7 @@
 <?php session_start();?>
+<?php
+$ID = $_SESSION['ID'];
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -34,7 +37,9 @@
                     <a href="/htmls/login.php">로그인</a>
                 </div>
                 <?php } else { ?>
+             
                 <div class="top_header">
+                   <a href="#" id="session"> Login:&nbsp<?=$ID?> </a>
                     <a href="#"><img src="/images/mnet.jpg" alt="mnet"></a>
                     <a href="#">TV</a>
                     <a href="#">뮤직</a>

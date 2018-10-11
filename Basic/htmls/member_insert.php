@@ -6,6 +6,15 @@
    $age = $_POST['age'];
    $phone = $_POST['phone'];
    
+    if(strlen($ID) < 7){
+        echo "<script>alert('ID가 너무 짧습니다.'); history.go(-1); </script>";
+        exit;        
+    }
+    if(strlen($PW) < 8){
+        echo "<script>alert('Password가 너무 짧습니다.'); history.go(-1); </script>";
+        exit;        
+    }
+
    include "../dbconn.php";
    $sql = "select * from member where id='$ID'";
    $result = mysqli_query($conn, $sql);
@@ -16,7 +25,7 @@
       echo "<script>alert('중복 아이디'); history.go(-1); </script>";
       exit;
    }else{
-      $sql = "insert into member values ('','$ID','$PW','$name','$age','$phone','$email')";
+      $sql = "insert into member values ('','$ID','$PW','$name','$age','$phone','$email', 0, 0)";
       mysqli_query($conn, $sql);
    }
       

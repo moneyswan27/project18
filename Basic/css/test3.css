@@ -11,6 +11,11 @@ body{
     width:980px;
     margin : 0 auto;
 }
+.top_header #session{
+   
+   float:left;
+
+}
 .container{
 height:100%px;
 
@@ -159,7 +164,7 @@ font-family: 'Do Hyeon', sans-serif;
 textarea {  resize: none;}
 .comments .input_zone .input_apply{
 width: 60px;
-height:46px;
+height:119px;
 background-color:#9c9c9c;
 color:#fff;
 margin-right:5px;
@@ -169,5 +174,9 @@ margin-bottom:5px;
 width:50px;
 }
 
+.reply_textarea #top_reply {
+   marign-top:30px;
+
+}
 
 /*---------------------border.html-----------------------*/

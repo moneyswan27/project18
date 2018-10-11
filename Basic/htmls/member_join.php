@@ -13,6 +13,48 @@
     <title>회원가입</title>
 </head>
 
+<script>
+	function check()
+	{ 
+		if(document.form_mem.ID.value == "")
+		{
+			alert('아이디를 입력하세요');
+			document.form_mem.ID.focus();
+			return ;
+		}
+        if(document.form_mem.ID.value.length < 6 ){
+            alert('아이디가 너무 짧습니다');
+			document.form_mem.ID.focus();
+			return ;
+        }
+		if(document.form_mem.PW.value == "")
+		{
+			alert('패스워를 입력하세요');
+			document.form_mem.PW.focus();
+			return ;
+		}	
+		if(document.form_mem.PW.value != document.form_mem.PW2.value)
+		{
+			alert('비밀번호가 달라요');
+			document.form_mem.PW2.focus();
+			return ;
+		}	
+		if(document.form_mem.name.value == "")
+		{
+			alert('이름 입력하세요');
+			document.form_mem.name.focus();
+			return ;
+		}
+
+		
+	document.form_mem.action="./member_insert.php";
+	document.form_mem.submit();
+	}
+</script>
+
+
+
+
 <body>
     <div class="wrap">
         <div class="header">
@@ -22,7 +64,7 @@
         <main>
             <div class="main">
                 <div class="content">
-                    <form action="member_insert.php" method="post" name="form_mem">
+                    <form action="./member_insert.php" method="post" name="form_mem">
                     <div class="login_box">
                         <div class="id_box">
                             <input type="text" id="userid" name="ID" class="ipText" value placeholder="아이디*"
@@ -52,7 +94,7 @@
                         </div>
                     </div>
                     <div class="button">
-                        <a><input type="submit" value="제출" onclick="check();">
+                        <a><input type="button" value="제출" onclick="check();">
                         </a>
                     </div> 
                     </form>
