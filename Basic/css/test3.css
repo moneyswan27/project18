@@ -12,8 +12,8 @@ body{
     margin : 0 auto;
 }
 .top_header #session{
-   
-   float:left;
+	
+	float:left;
 
 }
 .container{
@@ -38,15 +38,15 @@ margin:0 5px;
 text-align:right;
 margin-top:20px;
 }
-.top_header_in{background-color :#1e1d1d;}
+.top_header_in{background-color :#1e1d1d; }
 
 .header_wrapper {position:relative; top:0; left:0;}
+.header_wrapper h1{ display:inline-block; position:absolute; top:2px;}
 .header_wrapper .header_menu{
 position: absolute;
 top:160px;
 margin-left:300px;
 font-family: 'Do Hyeon', sans-serif;
-
 
 } 
 .header_wrapper .header_menu .gnbDepth1 li{display:inline-block;
@@ -57,12 +57,12 @@ font-size:20px;
 }
 
 
-.main .slide .cycle-slideshow{margin-top:50px;}
-.main .slide .four_picture .imges{}
+.main .slide .cycle-slideshow{margin-top:200px;}
+.main .slide .four_picture .imges{border:1px solid;}
 .main .title{text-align:center; margin-top:20px;}
 .main .title2{text-align:center;}
 .main #smtm777{ margin-left:400px;}
-.main .two_list{margin-top:60px; }
+.main .two_list{margin-top:60px;  margin-left:20px;}
 
 .gnbDepth1 li ul {
     display:none;  /* 평상시에는 서브메뉴가 안보이게 하기 */
@@ -89,7 +89,7 @@ font-size:20px;
 .inner_wrap{
 background-color:#F6F6F6;
 width:979px;
-height:1000px;
+height:910px;
 margin:0 auto;
 
 }
@@ -164,7 +164,8 @@ font-family: 'Do Hyeon', sans-serif;
 textarea {  resize: none;}
 .comments .input_zone .input_apply{
 width: 60px;
-height:119px;
+height:136px;
+border-style:outset;
 background-color:#9c9c9c;
 color:#fff;
 margin-right:5px;
@@ -175,7 +176,7 @@ width:50px;
 }
 
 .reply_textarea #top_reply {
-   marign-top:30px;
+	marign-top:30px;
 
 }
 

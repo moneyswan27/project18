@@ -2,7 +2,7 @@
    session_start();
    
    function checkInjection($str){
-    if(preg_match("/[#\&\\+\-%=\/\\\:;\\'\"\^`~\_|\\/\?\*$#<>()\[\]\{\}]/i", $str,  $match))
+    if(preg_match("/[\&\\+\-%=\/\\\:;\\\"\^~\_|\\/\?\*$<>()\[\]\{\}]/i", $str,  $match))
           {
         echo "<script>alert('바르게 입력해주세요 ^^.'); history.go(-1);</script>";
          exit;

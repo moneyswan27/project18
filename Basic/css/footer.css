@@ -1,9 +1,9 @@
-div{font-family: arial, dotum, Helvetica, AppleGothic, tahoma, verdana, sans-serif; font-size: 12px; background: transparent; line-height: 1.4em;}
-#footer_wrap div.footer{clear: both; width: 980px; padding: 30px 0 50px; margin: 0 auto;}
-#footer_wrap div.footer a.flogo{float: left; display: block; width: 155px; height: 46px; background-position: 0 -90px; text-indent: -9999px;}
+#footer_wrap{background:#fff; margin-top:70px;  font-family: arial, dotum, Helvetica, AppleGothic, tahoma, verdana, sans-serif; font-size: 12px;  line-height: 1.4em;}
+#footer_wrap div.footer{ clear: both; width: 980px; padding: 30px 0 50px; margin: 0 auto;}
+#footer_wrap div.footer a.flogo{ float: left; display: block; width: 155px; height: 46px; background: url(../images/footer_log.png); text-indent: -9999px;}
 #footer_wrap div.footer ul.flink li{float: left; font-size: 13px; padding: 0 5px;}
 li{display: list-item; text-align: -webkit-match-parent;}
 #footer_wrap .footer ul.flink li a, #footer_wrap .footer .address{font-family: 'Noto Sans KR', sans-serif; font-style: normal;}
-#footer_wrap div.footer ul.flink li a{color: #5a5959}
-#footer_wrap .footer .address{clear: both; display: block; font-size: 11px; line-height: 18px; color: #9b9b9b; margin-left: 202px;}
+#footer_wrap div.footer ul.flink li a{ color: #5a5959}
+#footer_wrap .footer .address{font-size: 11px;  color: #9b9b9b; margin-left: 160px;}
 #footer_wrap .footer .address .copyright {color: #a1a1a1; font-size: 11px; margin-top: 10px;}

@@ -1,0 +1,35 @@
+mysql> desc member;
++--------+------------------+------+-----+---------+----------------+
+| Field  | Type             | Null | Key | Default | Extra          |
++--------+------------------+------+-----+---------+----------------+
+| num    | int(10) unsigned | NO   | PRI | NULL    | auto_increment |
+| ID     | varchar(16)      | NO   | PRI | NULL    |                |
+| PW     | varchar(16)      | NO   |     | NULL    |                |
+| name   | varchar(16)      | NO   |     | NULL    |                |
+| age    | int(3) unsigned  | YES  |     | NULL    |                |
+| phone  | varchar(12)      | YES  |     | NULL    |                |
+| email  | varchar(30)      | YES  |     | NULL    |                |
+| locked | int(1) unsigned  | NO   |     | 0       |                |
+| try    | int(1) unsigned  | NO   |     | 0       |                |
++--------+------------------+------+-----+---------+----------------+
+9 rows in set (0.07 sec)
+
+
+mysql> desc board;
++----------+------------------+------+-----+---------+----------------+
+| Field    | Type             | Null | Key | Default | Extra          |
++----------+------------------+------+-----+---------+----------------+
+| num      | int(10) unsigned | NO   | PRI | NULL    | auto_increment |
+| ID       | varchar(16)      | YES  |     | NULL    |                |
+| subject  | varchar(255)     | NO   |     | NULL    |                |
+| content  | text             | YES  |     | NULL    |                |
+| date     | varchar(30)      | YES  |     | NULL    |                |
+| hit      | int(10) unsigned | YES  |     | NULL    |                |
+| filename | varchar(255)     | YES  |     | NULL    |                |
++----------+------------------+------+-----+---------+----------------+
+7 rows in set (0.00 sec)
+
+
+
+
+
