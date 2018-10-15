@@ -74,7 +74,7 @@ background-color:#fff;
 width:979px;
 height:600px;
 margin:0 auto;
-border: 1px solid red;
+/*border: 1px solid red;*/
 
 }
 
@@ -85,7 +85,7 @@ border: 1px solid red;
 .board_container .inner_wrap .view_page_wrap{
 width:930px;
 height:573px;
-
+margin-top:220px;
 margin-left:120px;
 color:#1e1d1d;
 
@@ -101,7 +101,8 @@ border-radius:15px;
 border-style:groove;
 width:700px;
 height:500px;
-border:1px solid ;
+border:1px solid;
+margin-top:20px;
 }
 
 
